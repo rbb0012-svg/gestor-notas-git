@@ -4,7 +4,7 @@ def agregar_nota(lista, texto):
 
 
 def mostrar_notas(lista):
-    if len(lista) != 0:
+    if len(lista) == 0:
         print("No hay notas guardadas")
     else:
         print("\nLISTA DE NOTAS")
